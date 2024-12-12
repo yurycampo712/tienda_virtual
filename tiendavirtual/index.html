@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Inicio</title>
+    <link rel="stylesheet" href="css/carrito-compras.css">
+</head>
+<body>
+    <header>
+        <h1><a href="#">Tienda virtual</a></h1>
+        <a href="#"><img class="menu" id="abrir" src="icon/menu-icono.svg" alt="menu"></a>
+        <nav class="nav" id="nav">
+            <a href="#"><img id="cerrar" class="menu" src="icon/menu-icono.svg" alt="menu"></a>
+            <ul class="nav-list">
+                <li><a href="pagina_de_inicio.html">Inicio</a></li>
+                <li><a href="#">Contactos</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Registrarse</a></li>
+                <li class="buscar">
+                    <input class="input-buscar" type="text" placeholder="Que estas buscando?">
+                </li>
+                <ul>
+                    <li class="img-logo">
+                        <a href="#" id="icono-carrito">
+                            <img src="icon/carrito-icono.svg" alt="compras" width="80%">
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Contenedor del carrito oculto por defecto -->
+                <div id="carrito-contenedor" style="display: none;">
+                    <div id="carrito-lista"></div>
+                    <h3 id="carrito-total">Total: $0.00</h3>
+                    <button onclick="cerrarCarrito()">Cerrar</button>
+                </div>
+
+                <li class="img-logo">
+                    <a href="#"><img src="icon/mensage-icono.svg" alt="mensajes" width="80%"></a>
+                </li>
+                <li class="img-logo">
+                    <a href="#"><img src="icon/cuenta-icono.svg" alt="cuenta" width="90%"></a>
+                </li>
+                <li class="opciones-menu-desplegable"><a href="#">Compras</a></li>
+                <li class="opciones-menu-desplegable"><a href="#">Notificaciones</a></li>
+                <li class="opciones-menu-desplegable"><a href="#">Ajustes</a></li>
+                <li class="opciones-menu-desplegable"><a href="#">Cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        </div>
+        
+          
+        <div class="etiqueta gr-12">
+            <section class="etiqueta-section"></section>
+            <h1 class="filtro-rapido ">Todo</h2>
+
+            
+        </div>
+        <!--Vista de Articulos-->
+        <div class="articulos">
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/images.jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="descripcion">
+                    <p class="requisitos">566.990</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/computador-pc-torre-gamer-power-l38-amd-ryzen-7-5700g-ssd-128-hdd-1tb-ram-16gb-led-22-pulgadas.webp" alt="articulo1" width="190px">
+                </section>
+                <h4>Computador Pc Torre Gamer Power</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$2.340.000</p>
+                </div>
+
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section></section>
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/Silla-Gamer-Trust-GXT-703B-Riye-Azul-1.webp" alt="articulo1" width="190px" height="250px">
+                </section>
+                <h4>Silla Gamer Escritorio Ergonomica Giratoria</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$ 1.000.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/images (1).jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>Teclado mecanico rgb</h4>
+                <div class="descripcion">
+                    <p class="requisitos">100.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/images.jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="descripcion">
+                    <p class="requisitos">566.990</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/computador-pc-torre-gamer-power-l38-amd-ryzen-7-5700g-ssd-128-hdd-1tb-ram-16gb-led-22-pulgadas.webp" alt="articulo1" width="190px">
+                </section>
+                <h4>Computador Pc Torre Gamer Power</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$2.340.000</p>
+                </div>
+
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section></section>
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/Silla-Gamer-Trust-GXT-703B-Riye-Azul-1.webp" alt="articulo1" width="190px" height="250px">
+                </section>
+                <h4>Silla Gamer Escritorio Ergonomica Giratoria</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$ 1.000.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/images (1).jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>Teclado mecanico rgb</h4>
+                <div class="descripcion">
+                    <p class="requisitos">100.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/images.jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="descripcion">
+                    <p class="requisitos">566.990</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/computador-pc-torre-gamer-power-l38-amd-ryzen-7-5700g-ssd-128-hdd-1tb-ram-16gb-led-22-pulgadas.webp" alt="articulo1" width="190px">
+                </section>
+                <h4>Computador Pc Torre Gamer Power</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$2.340.000</p>
+                </div>
+
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section></section>
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/Silla-Gamer-Trust-GXT-703B-Riye-Azul-1.webp" alt="articulo1" width="190px" height="250px">
+                </section>
+                <h4>Silla Gamer Escritorio Ergonomica Giratoria</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$ 1.000.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/images (1).jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>Teclado mecanico rgb</h4>
+                <div class="descripcion">
+                    <p class="requisitos">100.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/images.jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="descripcion">
+                    <p class="requisitos">566.990</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/computador-pc-torre-gamer-power-l38-amd-ryzen-7-5700g-ssd-128-hdd-1tb-ram-16gb-led-22-pulgadas.webp" alt="articulo1" width="190px">
+                </section>
+                <h4>Computador Pc Torre Gamer Power</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$2.340.000</p>
+                </div>
+
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section></section>
+                    <section class="etiqueta-categoria">Venta</section>
+                    <img src="img/Silla-Gamer-Trust-GXT-703B-Riye-Azul-1.webp" alt="articulo1" width="190px" height="250px">
+                </section>
+                <h4>Silla Gamer Escritorio Ergonomica Giratoria</h4>
+                <div class="descripcion">
+                    <p class="requisitos">$ 1.000.900</p>
+                </div>
+            </div>
+            <div class="vinetas gr-2">
+                <section class="alinear-centro">
+                    <section class="etiqueta-categoria"> Venta</section>
+                    <img src="img/images (1).jpg" alt="articulo1" width="190px">
+                </section>
+                <h4>Teclado mecanico rgb</h4>
+                <div class="descripcion">
+                    <p class="requisitos">100.900</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Carrito de compras</h4>
+                <p>Registrarse</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Soporte</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellendus voluptate vero excepturi accusantium eaque nobis totam, 
+                    asperiores quaerat distinctio aliquid ducimus neque temporibus, consequatur 
+                    dolore ipsam sed nulla. Enim, illo!</p>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Cuenta</h4>
+                <ul>
+                    <li><a href="#">Mi Cuenta</a></li>
+                    <li><a href="#">Iniciar Sesión / Registrarse</a></li>
+                    <li><a href="#">Publicaciones</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>carrito de compras act. pablo.</p>
+        </div>
+    </footer>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
